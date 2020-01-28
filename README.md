@@ -23,4 +23,4 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
     >"Power comes in responce to a need, not a desire...
     >You have to create that need."
 
-I'm really excited for what this class has to offer and I can't wait to learn as much as I can!
+I can't wait for what we're going to learn tomorrow. I've very excited to use this new info to build a career for myself.
