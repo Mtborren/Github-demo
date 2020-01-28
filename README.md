@@ -20,7 +20,7 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
     3. Cooking :fire:
 - This is my favorite quote.
     - As Goku once Said
-    >"Power comes in responce to a need, not a desire..."
-    >"You have to create that need."
+    >"Power comes in responce to a need, not a desire...
+    >You have to create that need."
 
 I'm really excited for what this class has to offer and I can't wait to learn as much as I can!
