@@ -13,6 +13,7 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
 - My free time usually consists of me playing video games or walking my dogs
     - I've been playing these **a lot** lately [Dragon Ball Z: Kakarot](https://youtu.be/Bf85wwJuFBE) & [Pokemon Sword](https://youtu.be/rWwEeHB8K2Q)
 - This is my wife Alexis and I with our two dogs!
+    - <a href="TylerFam.jpg>FamilyPhoto</a>
     - ![Family Photo](TylerFam.jpg)
 - My other hobbies include
     1. Traveling :airplane:
