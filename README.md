@@ -11,7 +11,9 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
 
 - I'm newly married and my wife and I just bought our first house together! :smiley: 
 - My free time usually consists of me playing video games or walking my dogs
-    - I've been playing these **a lot** lately [Dragon Ball Z: Kakarot](https://youtu.be/Bf85wwJuFBE) & [Pokemon Sword](https://youtu.be/rWwEeHB8K2Q)
+    - I've been playing these **a lot** lately 
+        - [Dragon Ball Z: Kakarot](https://youtu.be/Bf85wwJuFBE) 
+        - [Pokemon Sword](https://youtu.be/rWwEeHB8K2Q)
 - This is my wife Alexis and I with our two dogs!
     - <a href="TylerFam.jpg">Family Photo</a>
 - I'm a huge fan of comic books, anime and manga.
