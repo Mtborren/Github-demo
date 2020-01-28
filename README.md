@@ -16,7 +16,7 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
     - ![Family Photo](TylerFam.jpg)
 - My other hobbies include
     1. Traveling :airplane:
-    1. Drawing :pencil2:
-    1. Cooking :fire:
+    2. Drawing :pencil2:
+    3. Cooking :fire:
 
 I'm really excited for what this class has to offer and I can't wait to learn as much as I can!
