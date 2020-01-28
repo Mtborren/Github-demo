@@ -19,7 +19,7 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
     2. Drawing :pencil2:
     3. Cooking :fire:
 - This is my favorite quote.
-    As Goku once Said
+    - As Goku once Said
     >Power comes in responce to a need, not a desire...
     >You have to create that need.
 
