@@ -1,19 +1,13 @@
-<!doctype html>
+var irateInteger
+var sassyString 
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+irateInteger = 7
+sassyString = "this string is sassy"
 
-  <title>Homework</title>
-  <meta name="description" content="homework">
-  <meta name="author" content="me">
+console.log(irateInteger * sassyString)
+//for this answer I received NaN
 
- <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+console.log(2 + true)
+//for this answer I received 3.
 
-</head>
-
-<body>
-<!--CHANGE THIS  NEXT LINE --> 
-  <script src="java.js"></script>
-</body>
-</html>
+console.log(irateInteger + 15)
