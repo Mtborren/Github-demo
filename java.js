@@ -21,3 +21,15 @@ console.log(sassyString + sassyString);
 
 console.log(irateInteger + "7");
 //adding strings and integers together
+
+console.log(true + false);
+//trying things out
+
+console.log(true - false);
+
+console.log(true + true);
+
+console.log(8**2);
+//playing with exponents
+
+console.log(8**2-60)
