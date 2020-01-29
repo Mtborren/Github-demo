@@ -2,6 +2,7 @@ var irateInteger
 var sassyString 
 
 irateInteger = 7
+//because  7 8 9
 sassyString = "this string is sassy"
 
 console.log(irateInteger * sassyString);
