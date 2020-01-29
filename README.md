@@ -17,7 +17,6 @@ I'm *really* enjoying this class. It gives me the opportunity to learn **SO MUCH
 - This is my wife Alexis and I with our two dogs!
     - <a href="TylerFam.jpg">Family Photo</a>
 - I'm a huge fan of comic books, anime and manga.
-        
 - My other hobbies include
     1. Traveling :airplane:
     2. Drawing :pencil2:
