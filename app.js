@@ -1,9 +1,10 @@
+
+
 var haveMoney;
 var fastFood;
 var homeMade;
 var type;
 var restaurant;
-var dontWantIt;
 
 haveMoney = true;
 fastFood = false;
@@ -11,15 +12,13 @@ homeMade = "no";
 type = "burger";
 restaurant = "deli";
 
-
-
 if(haveMoney){
     if(fastFood){
         if(type === "burgers"){
             console.log("5guys");
         }else if(type === "wings"){
             console.log("ATown");
-        }else(type === "salad"){
+        }else {
             console.log("TopDog");
         }
     }
@@ -28,7 +27,7 @@ if(haveMoney){
             console.log("Chinese Palace");
         }else if(type === "steak"){
             console.log("Outback");
-        }else(type === "deli"){
+        }else {
             console.log("Jason's");
         }
     }
