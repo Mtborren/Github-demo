@@ -167,6 +167,6 @@ function pYr(),pMa(),Pmo(){
     console.log(prompt("Who's the greatest Avenger?","Tony Stark of course."))
 })();
 
-//immediate function creating a promt when ran
+//immediate function creating a prompt when ran
 
 //End Of Homework
