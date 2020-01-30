@@ -141,7 +141,7 @@ function washDishes(){
 }
 washDishes();
 
-//trying to create a function with global scoped variables
+//trying to create a function with global scoped variables, couldn't get it to operate properly
 /*
 pYr("2018")
 pMa("Honda")
