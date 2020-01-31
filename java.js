@@ -99,19 +99,28 @@
 
 // }
 
-// //while loop
+//while loop
 // var l = 1
 // while(l <= 50){
-//     console.log("add more");
+//     console.log(l);
 //     l++;
 //     l++;    //not sure if this is correct to skip every other but it did count by 2's
 // }
 
 // var z = 0
-// while(z<100){
-//     console.log("fizz")
-//     z++;
-// }      //return is divisible by 5. answer i got was 100
+// for(z = 0; z < 100; z++){
+//     if(z % 3 === 0 && z % 5 === 0){
+//         console.log("fizzbuzz");
+//     } else if (z % 3 === 0){
+//         console.log("fizz");
+//     } else if (z % 5 === 0){
+//         console.log("buzz");
+//     } else {
+//         console.log(z);
+//     }
+// }
+
+//fixed formula to count to 100 and name each category of # as defined above.
 
 // //function
 
@@ -143,27 +152,29 @@
 // washDishes();
 
 // //trying to create a function with global scoped variables, couldn't get it to operate properly
-// /*
-// pYr("2018")
-// pMa("Honda")
-// pMo("Civic")
+// 
 
-// function pYr(){
-//     console.log("2018");
+
+// var pYr = "2018"
+// var pMa = "Honda"
+// var pMo = "Civic"
+
+// function printYear(year){        
+//     console.log(year);
 // } 
-// function pMa(){
-//     console.log("Honda");
+// function printMake(make){
+//     console.log(make);
 // }
-// function pMo(){
-//     console.log("Civic");
+// function printModel(model){
+//     console.log(model);
 // }
+// printYear(pYr);
+// printMake(pMa);
+// printModel(pMo);
 
-// function pYr(),pMa(),Pmo(){
-//     return pYr + pMa + pMo
-// }
-// */
+
 // //IIFE function
-// /*
+// 
 // (function(){
 //     console.log(prompt("Who's the greatest Avenger?","Tony Stark of course."))
 // })();
@@ -171,3 +182,8 @@
 // //immediate function creating a prompt when ran
 
 // //End Of Homework
+
+
+// 1/31/20 Homework
+
+
