@@ -151,6 +151,16 @@
 // }
 // washDishes();
 
+// top is not correct for loop # 3, bottom is correct.
+
+// function myProcess(start, end){
+//     for(var z = start; z <= end; z++){
+//         console.log(z);
+//     }
+// }
+// myProcess(1,4);
+
+
 // //trying to create a function with global scoped variables, couldn't get it to operate properly
 // 
 
@@ -161,15 +171,13 @@
 
 // function printYear(year){        
 //     console.log(year);
-// } 
-// function printMake(make){
+// } function printMake(make){
 //     console.log(make);
-// }
-// function printModel(model){
+// }function printModel(model){
 //     console.log(model);
 // }
-// printYear(pYr);
-// printMake(pMa);
+// printYear(pYr); 
+// printMake(pMa); 
 // printModel(pMo);
 
 
@@ -179,11 +187,26 @@
 //     console.log(prompt("Who's the greatest Avenger?","Tony Stark of course."))
 // })();
 // */
-// //immediate function creating a prompt when ran
+//immediate function creating a prompt when ran
 
 // //End Of Homework
 
 
 // 1/31/20 Homework
+//Exercise Math
 
 
+
+// function randomCheck(){
+//     let x = document.getElementById('userInput').value;
+//     if(x === Math.round(Math.random(1*10))){
+//         console.log(alert("You got a Match! Good Guess!"));
+//     } else {
+//         console.log("Keep Guessing, You Were So Close!");
+//     }
+// }
+
+    
+    // need to write function that takes user input and fact checks against a random number
+
+// End Of Homework
