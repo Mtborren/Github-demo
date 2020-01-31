@@ -101,7 +101,7 @@
 
 // //while loop
 // var l = 1
-// while(l < 50){
+// while(l <= 50){
 //     console.log("add more");
 //     l++;
 //     l++;    //not sure if this is correct to skip every other but it did count by 2's
