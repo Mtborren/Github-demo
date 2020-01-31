@@ -1,4 +1,4 @@
-// //homework for 01/29/20
+                                                                            // //homework for 01/29/20
 // /*
 // var irateInteger
 // var sassyString 
@@ -47,8 +47,8 @@
 
 
 
-// //Homework 1/30/20
-// //conditional
+                                                                            // //Homework 1/30/20
+                                                                            // //conditional
 // var counter
 
 // counter = 2
@@ -192,8 +192,8 @@
 // //End Of Homework
 
 
-// 1/31/20 Homework
-//Exercise Math
+                                                                            // 1/31/20 Homework
+                                                                            //Exercise Math
 
 
 
