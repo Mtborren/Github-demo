@@ -81,7 +81,7 @@
 
 // for(var i = 0; i < clothes.length; i++){    //.length doesn't get () because it is a property
 //     console.log(clothes[i]);
-}
+//}
 
 // this works as is and will run through each item in index, but changing < to <= would break because it would attempt to reach outside of index count because index list is from 0 - 3 but length is 4.
 // if you make an array of one index thats a number it will create and array of undefined elements equal to the number entered to the array
@@ -143,7 +143,7 @@
 
 // reverse() - to reverse the order of elements in array.
 
-// reduce() - to reduce entire array into once single output value.
+// reduce() - to reduce entire array into one single output value.
     //does not affect original array, just provides new single output.
     //always processes left to right.
     //const array1 = [1, 2, 3, 4];
@@ -166,12 +166,12 @@
     //output = Fire-Water-Join
 
 // return() - returns value within specific parameter
-    //var ages = [32, 33, 16, 40];
+    // var ages = [32, 33, 16, 40];
     
-    //function checkAdult(age) {
+    // function checkAdult(age) {
     //     return age >= 18;
     // }
-    //function myFunction(){
+    // function myFunction(){
 
     // }
 
