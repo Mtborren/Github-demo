@@ -46,24 +46,11 @@ function addTo() {
     }
 }
 
-// function takeAway() {
-//     let input = document.getElementById("userInput").value;
-//     if(shoppingCart.includes(input)) {
-//         shoppingCart.splice(input, 1);
-//         alert("Item Has Been Removed.");
-//         let index = shoppingCart.indexOf(input);
-//         if(quantity[index] >= 0) {
-//             quantity[index] += 1;
-//         }
-//     }
-// }
-
-//works but takes wrong item out of shopping list
-
 function takeAway() {
+    console.log("hello");
     let input = document.getElementById("userInput").value;
     if(shoppingCart.includes(input)) {
-        shoppingCart.findIndex(input);
+        console.log(shoppingCart.indexOf(input));
         alert("Item Has Been Removed.");
         let index = shoppingCart.indexOf(input);
         if(shoppingCart[index] >= 1) {
