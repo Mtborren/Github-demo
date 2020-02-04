@@ -8,7 +8,7 @@
 //.push = // will be used to push item into shopping cart.
 //splice(,) = // will be used to subtract specific items from array
     //update* actually used .indexOf to locate index of specific item in array.
-//alert() = // will be used to notify when item inventory has reached zero.
+//alert() && prompt()= // will be used to notify when item inventory has reached zero.
 
 var shoppingCart = []
 var inventory = [
@@ -19,9 +19,9 @@ var inventory = [
         "lettuce"
     ];
 
-let quantity = [1, 24, 20, 25, 15];
+let quantity = [2, 24, 20, 25, 15];
 
-let milkInv = 1
+let milkInv = 2
 let eggsInv = 24
 let cheeseInv = 20
 let breadInv = 25
@@ -29,13 +29,15 @@ let lettInv = 15
 
 let input = userInput
 
+
 function addTo() {
     let input = document.getElementById("userInput").value;
-    if(inventory.includes(input)) {
+    let index = inventory.indexOf(input)
+    if(inventory.includes(input) && quantity[index] > 0) {
         shoppingCart.push(input);
         alert("Item Added to Cart.")
-        let index = inventory.indexOf(input);
-        if(quantity[index] > 0) {
+        let index = inventory.indexOf(input); 
+        if(quantity[index] >= 1) {
             quantity[index] -= 1;
         } else {
             prompt("We're Sorry! This item is no longer available. Please enter your E-Mail address to be notified when it comes back in stock.")
@@ -47,18 +49,16 @@ function addTo() {
     }
 }
 
+
 function takeAway() {
     let input = document.getElementById("userInput").value;
     if(shoppingCart.includes(input)) {
         shoppingCart.indexOf(input);
         let index = shoppingCart.indexOf(input);
         shoppingCart.splice(index, 1);
+        let inv = inventory.indexOf(input);
+        quantity[inv] += 1;
         alert("Item Has Been Removed.");
-        if(shoppingCart[index] >= 1) {
-            shoppingCart[index] -= 1;
-            quantity[index] += 1;
-             //still need to get splice to work and remove item from list
-        }
     } else {
         alert("Item Not in Shopping Cart, Please Reselect.");
     }

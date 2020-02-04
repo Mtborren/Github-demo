@@ -86,7 +86,7 @@
 // this works as is and will run through each item in index, but changing < to <= would break because it would attempt to reach outside of index count because index list is from 0 - 3 but length is 4.
 // if you make an array of one index thats a number it will create and array of undefined elements equal to the number entered to the array
 
-//JS Data Types
+                                                                            //JS Data Types
 
 // String
 // integers
@@ -175,7 +175,7 @@
 
     // }
 
-                                                                                //GitHub
+                                                                            //GitHub
 
 
 //Git Branch - creates different branches off of original source code to allow new code, testing and ways to collaborate to make changes and get correct results without directly changing the Source.
@@ -199,7 +199,7 @@
     //file name is username.github.io
 
 
-                                            //02/04/20//
+                                                                            //02/04/20//
 
 //Today:
 //Fun with website
@@ -219,7 +219,7 @@
 //Testing
 //If caught up, start working on website (do research/make an outline)
 
-                                            //Design
+                                                                            //Design
 
 //Websites - We are making personal portfolio for website.
     //Dribbble.com - good place for creative inspiration
@@ -231,7 +231,7 @@
 
 //Freelancing is the goal, need to get firm understanding of development.
 
-                                            //HTML Basic Terms
+                                                                            //HTML Basic Terms
 
 //Elements
 //Tags
@@ -239,6 +239,24 @@
 //HTML document structure
     //html, head, body
 //Self closing elements
+
+                                                                            //JS FUN
+
+//ECMAScript
+    //board of standards that add rules and syntax to javascript.
+    //Languages are constantly evolving so new standards are introduced to keep the language uniform and working.  
+        //ECMAScript and TypeScript are not the same. Type script is a different syntax and ruled way of using JS.
+
+//Polyfill - a piece of code used to provide modern functionality on older browsers that do not natively support it.
+
+//Babel is a way to polyfill code for older browser versions.
+    //write new clean code in, Babel rewrites into older version of code that works with browser.
+
+//Always write clean code. Keep lines together, Keep functions in order and make sure spacing is uniform.
+
+//Nesting levels    
+    //always make sure functions, loops, and all other lines are on appropriate lines within appropriate commands so that code will be read correctly by machine.
+
 
 
 
