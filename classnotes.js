@@ -199,6 +199,47 @@
     //file name is username.github.io
 
 
+                                            //02/04/20//
+
+//Today:
+//Fun with website
+//HTML basics
+//JS Polyfills
+//JS coding style
+//Testing (What is testing, What is QA, then how to actually write tests)
+//Object basics
+
+//This week:
+//Py night 6pm - 9pm friday
+//Friday guest speaker - Doug from Security Onion Solutions
+//Friday will be first quiz
+
+//Homework/Labwork
+//Catch up 
+//Testing
+//If caught up, start working on website (do research/make an outline)
+
+                                            //Design
+
+//Websites - We are making personal portfolio for website.
+    //Dribbble.com - good place for creative inspiration
+    //awwwards.com - "    "     "   "
+    //Pinterest.com
+    //Figma.com - helpful for creative design
+    //color.adobe.com - really helpful for matching color palettes
+        //70/20/10 rule - 70% should be main color, 20 % complementary color, 10% accent.
+
+//Freelancing is the goal, need to get firm understanding of development.
+
+                                            //HTML Basic Terms
+
+//Elements
+//Tags
+//Attributes
+//HTML document structure
+    //html, head, body
+//Self closing elements
+
 
 
 

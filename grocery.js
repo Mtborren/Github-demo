@@ -5,8 +5,9 @@
 //    inventory count:
 
 //methods
-//.push = // will be used to push item into shopping cart
+//.push = // will be used to push item into shopping cart.
 //splice(,) = // will be used to subtract specific items from array
+    //update* actually used .indexOf to locate index of specific item in array.
 //alert() = // will be used to notify when item inventory has reached zero.
 
 var shoppingCart = []
@@ -47,26 +48,26 @@ function addTo() {
 }
 
 function takeAway() {
-    console.log("hello");
     let input = document.getElementById("userInput").value;
     if(shoppingCart.includes(input)) {
-        console.log(shoppingCart.indexOf(input));
-        alert("Item Has Been Removed.");
+        shoppingCart.indexOf(input);
         let index = shoppingCart.indexOf(input);
+        shoppingCart.splice(index, 1);
+        alert("Item Has Been Removed.");
         if(shoppingCart[index] >= 1) {
             shoppingCart[index] -= 1;
             quantity[index] += 1;
+             //still need to get splice to work and remove item from list
         }
+    } else {
+        alert("Item Not in Shopping Cart, Please Reselect.");
     }
 }
-
-
-
-
-
-
 
 function viewCart() {
     alert(shoppingCart);
 
 }
+
+
+//IT WORKS!!!!
