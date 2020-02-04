@@ -20,13 +20,13 @@ var inventory = [
     ];
 
 let quantity = [2, 24, 20, 25, 15];
-
+//used to represent actual count of product inventory
 let milkInv = 2
 let eggsInv = 24
 let cheeseInv = 20
 let breadInv = 25
 let lettInv = 15
-
+//used to represent which which item is being counted in quantity array
 let input = userInput
 
 
@@ -66,7 +66,6 @@ function takeAway() {
 
 function viewCart() {
     alert(shoppingCart);
-
 }
 
 
