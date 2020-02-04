@@ -56,8 +56,8 @@ function takeAway() {
         shoppingCart.indexOf(input);
         let index = shoppingCart.indexOf(input);
         shoppingCart.splice(index, 1);
-        let inv = inventory.indexOf(input);
-        quantity[inv] += 1;
+        let amount = inventory.indexOf(input);
+        quantity[amount] += 1;
         alert("Item Has Been Removed.");
     } else {
         alert("Item Not in Shopping Cart, Please Reselect.");
