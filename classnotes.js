@@ -259,6 +259,128 @@
 
 
 
+                                                                            //02/05/20
+
+//Today:
+//Array review
+//Testing(what is, q/a, how to write)
+//Mocha
+//Object basics
+//This
+
+//Homework:
+//Testing & Objects
+//Social Media Cleaning + Create Linked In
+
+
+//Video Notes
+//Arrays
+
+// let selectedColors = ['red', 'blue'];
+// console.log(selectedColors);
+
+//index of red is 0, index of blue is 1.
+
+// let selectedColors = ['red', 'blue'];
+// console.log(selectedColors[0]);
+
+//logs red, as 0 indicates index 0.
+
+
+// let selectedColors = ['red', 'blue'];
+// selectedColor[2] = 'green';     // this line now indicates that index 2 is assigned to green, and now green will be read in array as index 2.
+// console.log(selectedColors[0]); //typing . after selectedColors (ex. selectedColor.) prompts VS code to show all dot methods that can be used in javascript. (like indexOf and length)
+
+//Loops
+//For while do while for in
+//i = 0 means loop variable
+//second condition is a comparison to i
+//for (initialExpression; condition; incrementExpression)
+//condition means comparison to variable (what needs to be true to keep loop going, once false loop will end)
+// for (let i = 0; i < 5; i++){
+//     console.log('hello world')
+// }
+
+//as long as i is less than 5, hello world will continue to be logged. i++ adds one to i every loop 
+
+//for (let i = 1; i <= 5; i++) {
+//     if (i % 2 !== 0) console.log(i);    //to show only odd numbers, use modulo. if numbers remained after being divided by 2 is NOT 0, then the number has to be odd as all even numbers will have remainder of 0.
+// }
+
+//also written as 
+
+//for (let i = 5; i >= 1; i--) {
+//     if (i % 2 !== 0) console.log(i);    
+// }
+
+//Good Resources for learning
+    //funfunfunctions(youtube)  *
+    //freecodecamp(youtube)     *
+    //freeudemyclasses(website)
+    //Adam Coder(youtube)
+    //computerphile(youtube)
+    //Game Maker's Toolkit(youtube) - check out -   *
+    //Geekforgeeks(youtube)
+    //GoogleChromeDevelopers(youtube)
+    //TheCodingChannel(youtube)
+    //TheNewBoston(youtube)     *
+    //Dev.to(website) - articles about how to understand and thrive with tech
+
+//Good resources for staying up to date with tech news
+    //HackerNoon
+    //TheNextWeb - informs when classes and info is on sale/free
+    //Hackaday - about hard ware hacking
+
+                                                                            //Testing
+
+//QA - means Quality Assurance
+    //Automation - writing scripts to test code.
+    //Manual - testing code by working with live site to make sure all expected outcomes occur without issue
+
+//Types of testing
+    //TDD - Test-Driven Development
+        //write a test to determine what would count as a pass or fail, then write code. then test code with preWritten test.
+
+    //BDD - Behavior-Driven Development
+        //looking at how the code is behaving, how pages are loading and how aspects are working.
+
+    //Unit Testing
+        //Tiny tests for snippets of code.
+    
+    //Integration Testing
+        //test for integrating new code to main code
+
+    //Regression Testing
+        //test to see if code works as it did prior to integration into main code.
+
+    //Other types of tests include:
+        //System
+        //Sanity
+        //Smoke
+        //Interface
+        //Beta/Acceptance
+
+//General Testing Notes for Making Forms
+    //Question Protocol: 
+        //Every question you ask.
+        //Who within your organization uses the answers to each question
+        //What they use them for
+        //Whether an answer is required or optimal
+        //If an answer is required, what happens if a user enters any old thing just to get through the form
+        //Hint text should be used where users are more likely to make a mistake, like when having to satisfy a comlex set of passwork rules. Error messages should be last resort
+    
+    //Accessibility Notes
+        //Make Fields easy to tap -- 44px height or more is good.
+
+//Be Tolerant of mistakes like extra white space, notes
+
+//Cross-Browser Testing
+    //Should be done from beginning of development so that errors wont rise when trying to load to different browser.
+
+
+
+
+
 
 
 
