@@ -365,7 +365,7 @@
         //Every question you ask.
         //Who within your organization uses the answers to each question
         //What they use them for
-        //Whether an answer is required or optimal
+        //Whether an answer is required or optional
         //If an answer is required, what happens if a user enters any old thing just to get through the form
         //Hint text should be used where users are more likely to make a mistake, like when having to satisfy a comlex set of passwork rules. Error messages should be last resort
     
@@ -377,9 +377,67 @@
 //Cross-Browser Testing
     //Should be done from beginning of development so that errors wont rise when trying to load to different browser.
 
+//Mocha
+    //Testing framework for javasript running on node.js and in the browser.
+    //install npm before able to install mocha
+    //we can write unit tests using mocha
 
+//things we havent used in code
 
+//-Require the built in 'assertion' library
+//var assert = require('assert');
+//-create a test suite (group) called Math
+// describe('Math', function(){ // describe is what is displayed when testing
+//     //-Test one: A string explanation of what we're testing
+//     it('should equal to 9', function(){
+//         //-out actual test: 3*3 should be 9.
+//         assert.equal(9, 3*3); //9 is condition, 3*3 is whats being tested
+//     });
+//     //-test two: a string explanation of what we're testing
+//     it('should equal to -8', function(){
+//         //-our actual test: (3-4)*8 should equal -8
+//         assert.equal(-8, (3-4) * 8);
+//     });
+// });
 
+//.json
+    //java script object notation
+
+//Node
+    //node.js is an open source server environment
+    //free, runs on various platforms and uses JS on the server (server is a computer that hosts code)
+
+//NPM
+    //Node packet manager
+    //Software registry
+
+//Open source
+    //product of code that you can manipulate exactly how you want or need thats completely free and available to the public.
+        //(i.e linux, ubuntu, mozilla, babel, VLC, gimp)
+
+//Test Practice
+
+//function
+//find area of triangle
+// calcArea.findAreaTriangle(base, height) = function(){
+//     return .5 * base * height               //use return because that is what the function will provide when called below in console log
+
+// }
+
+// // call function, parameters 4 and 5 will replace base and height in actual function.
+// console.log(findAreaTriangle(4, 5));
+
+//returns 10
+
+//test for function
+
+// let calcArea = require('index.js'); //add this to function to assign value in test
+// let assert = require('assert');
+// describe('Area Calculations', function(){
+//     it('area of triangle with b-10 and h-5 should be 25', function(){
+//         assert.equal(25, calcArea.findAreaTriangle(10, 5));
+//     });
+// });
 
 
 
