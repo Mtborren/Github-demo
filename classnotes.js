@@ -756,3 +756,26 @@
 //     return "welcome" = this.name = "to" + a + " " + b + " in " + c;
 // };
 
+//Primitive data types in Javascript
+    //String
+    //Number
+    //Boolean
+    //Null
+    //Undefined
+
+
+//Homework 02/06/20
+
+//test each function from last week's app using mocha
+//update variables and functions to better names following code quality principles we have talked about
+//see if you can turn any functions into methods of objects
+
+//API
+    //Application programming interface
+        //A way to reference someone elses code
+
+//DOM
+    //Document Object Model
+        //what gets rendered in window with html & css code
+
+// look up HTML document tree to understand flow of HTML document - where to place tags in which area.
