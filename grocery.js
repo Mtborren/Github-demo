@@ -6,7 +6,7 @@
 
 //methods
 //.push = // will be used to push item into shopping cart.
-//splice(,) = // will be used to subtract specific items from array
+//splice(,) = // will be used to subtract specific items from array.
     //update* actually used .indexOf to locate index of specific item in array.
 //alert() && prompt()= // will be used to notify when item inventory has reached zero.
 
