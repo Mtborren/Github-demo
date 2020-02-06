@@ -439,21 +439,320 @@
 //     });
 // });
 
+//let i = {}; is how you define an java script object
 
 
 
+//02/06/20
+
+//JS Object Basics
+
+//var person = {}; //this is an empty object. it would be the same as var name = " ";
+
+//we can house functions inside of objects, these then become methods.
+
+//name: "Susan", 
+
+//work: function(){
+    //-content
+//}
+
+// //Can be written like this
+//     var person = {
+//         name: "susan",
+//         age: 57,
+//         work: function(){
+//         },  // use comma to seperate object properties, semi colon is used to close out end of object
+//         sleepy: function(){
+
+//         } //leave comma out because its the last item in object
+//     };
+
+//function() = anonymous function, a function that operates without a name
+
+// var math = {
+//     PI: 3.14,
+//     Eulers: 2.71,
+//     round: function(){
+//         //function 
+//     }
+// }
+
+// math.round(); //calls object math, and searches until it finds function named round();
+
+//assert. is a node object located within a built in library.
+
+// var <object name> = {
+//     -properties
+//     <key>: <value>,  //key value pair, assigns a thing, string, variable, whatever to a value.
+//     -methods
+//     <'key' function name>: <'value' function compostion>,
+// };
+//kind of functions as dictionary. it dictates definition or value to key property.
+
+//80% of computer science is based on object based languages.
+
+//dot notation
+
+//var myCar = new Object();
+//myCar.make = 'Ford'
+//myCar.model = 'Mustang'
+//myCar.color;
+//console.log(myCar.make);      //console.log is a dot notation
+//console.log(myCar.color)
+
+//bracket notation
+
+//myCar['year'] = 1969;
+// console.log(myCar['model'])
+
+// myCar['Do I like?'] = "I hate my car.";     //Do not use bracket notation unless needed. dot notation is easier to understand, write and read.
+// console.log(myCar['Do I like?']);
+//  
+//myCar.likability = "I hate my car.";
+//console.log(myCar.likability);
+
+//function showProps(obj, objName) {
+//     var result = "";
+//     for (var i in obj) {    // var i in obj means that for every i(property) in object, do the following function
+//         if (obj.hasOwnProperty(i)) {
+//             result += objName + "." + i + "=" = obj[i] + "/n"   // /n means new line for each log inside new object
+//         }
+//     }
+// };
+
+// function print(obj, objName){
+//     for(var value in Math){
+//         console.log("beep");
+//         var result="";
+//         result += "key" + value + "Value" + Math.value;
+//         console.log(Math.value);
+//     }
+// }
+// print(Math, "Math");
+
+//*doesn't work, math object doesn't exist until run time(time of execution on browser)
+
+//Watch Crash course Data structures on youtube
+
+                                                                                            //Global Scope & Local Scope
+                                                                                              //Code pen - object basics (Morgan's Code)
+
+
+// name spacing- js defaults to global so we can use some fancy things to avoid issues
+// literal syntax- fancy key value pairs
+// method definition- A JavaScript method is a property containing a function definition
+// value storage- look at the literal syntax
+// value accessing - access those values
+// for key in object- more loops brother
+// */
+
+//READ THROUGH \/
+
+//name spacing - using objects and local scope to make sure they dont override each other
+//Single global variables
+// var myApplication =  (function () { 
+//     function funOne(){
+//         //...
+//     }
+//     return{
+//         //...
+//     }
+// })();   //means immediately invoking notation
+// //Prefix namespacing
+// var myApplication_propertyA = {};
+// var myApplication_propertyB = {};
+// function myApplication_myMethod(){ 
+// console.log("hello");
+// }
+// //Object literal notation
+// var myApplication = {
+
+// // As we've seen, we can easily define functionality for
+// // this object literal..
+// getInfo:function(){ 
+//   //...
+// },
+
+// // but we can also populate it to support 
+// // further object namespaces containing anything
+// // anything we wish:
+// models : {},
+// views : {
+//     pages : {}
+// },
+// collections : {}
+// };
+// //Nested namespacing
+// var myApp =  myApp || {};
+
+// // perform a similar existence check when defining nested 
+// // children
+// myApp.routers = myApp.routers || {};
+// myApp.model = myApp.model || {};
+// myApp.model.special = myApp.model.special || {};
+// //Immediately-invoked Function
+// // an (anonymous) immediately-invoked function expression
+// (function () { /*...*/})();
+
+// // a named immediately-invoked function expression
+// (function foobar () { /*..*/}());
+
+// // this is technically a self-executing function which is quite different
+// function foobar () { foobar(); }
+// //Expressions
+
+// //Namespace injection
+// var myApp = myApp || {};
+// myApp.utils =  {};
+
+// (function () {
+// var val = 5;
+
+// this.getValue = function () {
+//   return val;
+// };
+
+// this.setValue = function( newVal ) {
+//   val = newVal;
+// }
+  
+// // also introduce a new sub-namespace
+// this.tools = {};
+
+// }).apply( myApp.utils );  
+
+// // inject new behaviour into the tools namespace
+// // which we defined via the utilities module
+
+// (function () {
+// this.diagnose = function(){
+//     return "diagnosis";   
+// }
+// }).apply( myApp.utils.tools );
+
+// // note, this same approach to extension could be applied
+// // to a regular IIFE, by just passing in the context as 
+// // an argument and modifying the context rather than just
+// // "this"
+
+// // Usage:
+
+// // Outputs our populated namespace
+// console.log( myApp );
+
+// // Outputs: 5
+// console.log( myApp.utils.getValue() );
+
+// // Sets the value of `val` and returns it
+// myApp.utils.setValue( 25 ); 
+// console.log( myApp.utils.getValue() );
+
+// // Testing another level down
+// console.log( myApp.utils.tools.diagnose() );
+
+
+// //Literal Syntax
+
+// var myObject ={
+// myProperty : "value",
+// yourProperty : "value",
+// myMethod : function(){
+//   //code here
+// },
+// yourMethod : function(){
+//   //more code
+// }
+// }
+
+// //value accessing
+// console.log(myObject.myProperty);
+
+// //for key in object
+// for (var key in myObject) {
+// // skip loop if the property is from prototype
+// if (!myObject.hasOwnProperty(key)) continue;
+
+// var obj = myObject[key];
+// for (var prop in obj) {
+//     // skip loop if the property is from prototype
+//     if (!obj.hasOwnProperty(prop)) continue;
+
+//     // your code
+//     //alert(prop + " = " + obj[prop]);
+// }
+// };
 
 
 
+//THIS
+
+//What is this
+
+// function Car(make, model, year) {
+//     this.make = make;   //using this, we can now use NEW to assign a lot of info
+//     this.model = model;
+//     this.year = year;
+// }
+//     //kind of like a blueprint, also known as a constructor
+//         //we use this blueprint so that when we have new cars to push into function, we dont have to rewrite function, just change actual var in log.
+
+// var car1 = new Car('Eagle', 'Talon TSi', 1993);
+// console.log(car1.make); //(this"car1".make is equal to this.make since our new variable we've created is car1)
+    //logs: Eagle since the make of var car 1 is Eagle.
+    // if we only placed Car inside of the log, it would've printed Eagle, Talon TSi, 1993
+    //the physical item made from blueprint
+
+//This
+
+// var person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id: 5566,
+//     fullName: function(){
+//         return this.firstName + " " + this.lastName;         //when scoped locally, it knows we are referring to the person object above for this this. statement //+ " " + means to add space in between logs
+//     }
+// }
+
+// console.log(person.fullName());
+// console.log(this.firstName);
 
 
+//Concept of Dry
+    //Don't Repeat Yourself
+        //waste of time to write same code several times
+        //if you need to update something, using one code to run multiple tasks means you only have to update one code and not several for each task.
 
+//Bind uses arrays to merge
 
+// let c1 = {
+//     z: 30,
+//     y:20
+// }
 
+// let c2 = {
+//     z: 14,
+//     y: 67
+// }
 
+// function print() {
+//     console.log(z + " , " + y);
+// }
 
+// let c1print = print.bind(c1);
+// let c2print = print.bind(c2);
 
+// //call and apply uses individual parameters
 
+// var obj = {name:"Tyler"};
 
+// var greeting = function(a,b,c){
+//     return "welcome" + this.name + "to" + a + " " + b + "in" + c;
+// };
 
+// console.log(greeting.call(obj, "Augusta", "GA", "America!"));
+// var obj = {name:"Morgan"};
+// var greeting = function(a,b,c){
+//     return "welcome" = this.name = "to" + a + " " + b + " in " + c;
+// };
 
