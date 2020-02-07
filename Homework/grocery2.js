@@ -1,16 +1,17 @@
 let shoppingCart = {};  //empty shopping cart object.
 let inventory = {       //inventory object
-    milk : 10,
-    eggs : 24,
-    cheese : 20,
-    bread : 25,
-    lettuce : 15
+    milk: 10,
+    eggs: 24,
+    cheese: 20,
+    bread: 25,
+    lettuce: 15
 };
-// let input = userInput //may not need to define here.
+//let input = userInput //may not need to define here.
 
 // function addTo() {
-//     let input = document.getElementById("userInput").value;
-//     if(inventory.includes(input) && inventory[index] > 0){
+//     let input = document.getElementById("userInput").addEventListener("click", addToCart);
+//     let index = inventory.indexOf(input)
+//     if(inventory.includes(input) && inventory[index] > 0){ //for key in elementExists
 //         shoppingCart.push(input);
 //         alert("Item Added to Cart.");
 //         if(inventory[index] >= 1){
@@ -22,6 +23,10 @@ let inventory = {       //inventory object
 //         alert("Item is not in inventory, please enter a valid item.")
 //     }
 // }
+
+function addTo() {
+    
+}
 
 // function takeAway() {
 //     let input = document.getElementById("userInput").value;
@@ -35,8 +40,7 @@ let inventory = {       //inventory object
 //     }
 // }
 
-function viewCart() {
-    alert(shoppingCart);
-}
-
+// function viewCart() {
+//     alert(shoppingCart);
+// }
 //This function works as expected, however it gets broken when the other functions are enabled.

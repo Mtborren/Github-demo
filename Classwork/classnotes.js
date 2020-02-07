@@ -879,3 +879,82 @@
 
 //document.write(); - do not use after page is loaded, it will overwrite entire page.
 
+//addEventListener - changes that happen for the user while they are navigating
+    //events that occur after certain actions have been taken.
+    //types of events
+        //onload
+        //onunload
+        //onchange - "how you can change text to one case type to validate passwords or other info"
+        //onmousedown - when you click down
+        //onmouseup - when you release click
+        //onclick
+        //onfocus - highlights fields when active inside them
+
+//can use .addEventListener("click", displayDate);
+
+//Event propagation
+    //how user interactions (clicks, page etc) travel through the DOM to get handled
+    //Bubbling
+        //to bubble info back up to the top, like form data after being filled and submitted (inside out)
+    //Capturing
+        //to capture new info from outside in to deeper levels, like to make sure all areas of form are filled before allowing option to submit (outside in)
+//Event delegation
+    //once event has been captured, pass task off to parent element
+
+//JS form validation
+    //goal is to kick out errors and bad data before it reaches server
+
+    //regex - "regular expression" - creates a pattern the computer can understand to search for things
+    //string validation - ensuring string consists of all letters and not integers
+
+    //keep server clean and your site will stay clean, secure and responsive.
+
+//JS timing
+    //setTimeout(function, milliseconds) - will run for specific time (log out after 10 minutes)
+    //setInterval(function, milliseconds) - will run until not able to
+        //1000 milliseconds in 1 second
+    //requestAnimationFrame - CSS - animation for loading screens 
+
+//JS AJAX - Asynchronous Javascript and XML
+    //allows for pages to constantly receive new info without having to refresh site.
+    //XML - extensible markup language - standard way of writing to ensure understanding from other machines
+    //status codes
+    //GET
+        //used to get information from the server
+        //ie youtube, pandora every file pulled and played started with a GET request
+        //ie logging in, requesting to see if info is match and gain entrance
+    //HTTP(S) - hyper test transfer protocol (secure)
+        //status codes for errors
+        //1xx - informational
+        //2xx - success
+            //200 - ok
+        //3xx - redirection
+            //301 - redirect
+        //4xx - client error
+            //400 - bad request
+            //403 - forbidden
+            //404 - missing content
+        //5xx - server error
+    //XHR - XML HTTP request
+        //I want XML and I want a status
+    //States
+        //readyState
+            //How things happen - when XHR processes, what it actually does
+    //response text
+
+//URL - uniform resource location
+    //google.com
+    //google - domain
+    //.com - commercial domain
+
+//JSON
+    //JS object notation
+
+    //Parse - takes string and turns into JSON object
+    //stringify - takes info and turns into string
+
+//HOMEWORK
+//Exercise DOM manipulation
+//Exercise Event listener
+
+//Quiz monday on arrays and functions!!! study this weekend

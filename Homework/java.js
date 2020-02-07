@@ -210,3 +210,18 @@
     // need to write function that takes user input and fact checks against a random number
 
 // End Of Homework
+
+//02/07/20 
+
+//Homework
+
+// Exercise Dom manipulation
+    // change styles of 3 separate elements using Javascript
+    // change the class name and text of a a child or sibling of each of the above elements
+
+
+
+// Exercise event listener
+    // add an event listener to an element so that when you click it, another element's style changes.
+    // create a list with at least 3 elements
+    // apply event delegation to that list of elements
