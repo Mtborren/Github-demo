@@ -779,3 +779,103 @@
         //what gets rendered in window with html & css code
 
 // look up HTML document tree to understand flow of HTML document - where to place tags in which area.
+
+                                                            //02/07/20
+
+//http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html
+//good resource to reference for html layout
+//ex
+//<!doctype>
+    //<html>
+        //<head>
+            //title
+            //meta "meta data is like time, date, place and tagged people for a photo - photo being normal data, all other info about photo being meta data"
+            //links
+            //style
+            //scripts
+        //<body>
+            //header
+                //nav class
+                            //} parent/child relationship
+                    //button
+                    //list
+                        //ul - unordered list
+                            //li - list items
+            //main
+            //footer
+                //div 
+                    //dl - descriptive list
+                        //dt
+                        //dd
+                    //ul - unordered list
+                        //li - list items
+                            //} sibling relationship
+                        //li
+            //scripts
+
+//ID
+    //Unique names that can only be used once
+//Class
+    //ways to group items together to keep changes uniform
+
+//Shadowrun template
+
+// <head>
+//   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+//   <link href="main.css" rel="stylesheet">
+// </head>
+
+// <body>
+//   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+//     <a class="navbar-brand" href="/homepage.html">Home</a>
+//     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+//       <span class="navbar-toggler-icon"></span>
+//     </button>
+//     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+//       <div class="navbar-nav">
+//         <a class="nav-item nav-link active" href="/info.html">Information <span class="sr-only">(current)</span></a>
+//       </div>
+//     </div>
+//   </nav>
+//   <div class="topContainer">
+    
+//   </div>
+// </body>
+
+//classwork
+
+{/* <head>  //root
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/homepage.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/info.html">Information <span class="sr-only">(current)</span></a>
+      </div>
+    </div>
+  </nav>
+  <div class="topContainer">
+    <h1 id ="title">Hello</h1>
+    <ul id ="listOne">
+        <li>"This is a list"</li>   //leaves
+        <li>"This is a list"</li>
+    </ul>
+  </div>
+</body> */}
+
+//parentNode
+//childNodes[nodenumber]
+//firstChild
+//lastChild
+//nextSibling
+//previousSibling
+
+//document.write(); - do not use after page is loaded, it will overwrite entire page.
+
