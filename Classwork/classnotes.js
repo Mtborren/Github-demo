@@ -1029,3 +1029,92 @@
         //Newest features - Header, Nav, Article, Section, Footer, Aside.
 
 
+
+
+//QUIZ REVIEW
+    //Math(object)
+        //When using math functions, the math operator is always capitol.
+
+    //if(input == 0){
+    //}
+
+    //Order of operations
+
+    //return - what the value will be returned out to
+        //return sum of (a,b) - placed in function
+            //then you can just console.log the function name and gather the result
+
+    //String(object)
+        //length
+        //toUpperCase - toLowerCase
+        //indexOf
+            //[ ] accessor
+        //startsWith - endWith
+        //includes
+        //slice
+
+
+    //JS Array Methods
+
+    // var arr = [0, 7, 6, 27];
+
+    // for ( var i = 0; i < arr.length; i++){  //var i = 0 sets up our loop to start at 0 and log whatever is there, and as long as the next is true, add one to i because of i++
+    //     arr[i] == arr[i] + 5;
+    // }
+    // console.log(arr);
+
+    // var arr = [0, 7, 6, 27];
+
+    // for ( var i = 0; i < arr.length; i++){
+    //     arr[i] == arr[i] + 5;
+    //     if(i = arr.length -1){
+    //         console.log(arr[i]);
+    //     }
+    // }
+    // console.log(arr);
+
+    //Objects
+        //object literal syntax
+        // var factory = {
+        //     //properties
+        //     location: "address",
+        //     capacity: 100,
+        //     //functions within object is knows as method
+        //     makeStuff: function () {
+        //         //do code
+        //     }
+        // }
+
+    //     //Object Problem - bakery franchise 
+    //     function bakery (...) {
+    //         this.location = location,
+    //         this.sqFt = sqFt,
+    //         this.employeeCount = employeeCount,
+    //         this.isVegan = isVegan,
+    //         bake: function(typeOfGoods) {
+    //             //some code
+    //         }
+    //         sell: function(typeOfGoods){
+    //             //some code
+    //         }
+    //     }
+
+    //     bakery.bake("bagels");  //Function call. calls on function bakery to run function bake and the type of goods is "bagels".
+
+    //     var bakeShop = new bakery("address", 100, 1, false) // this will result in a new object that will gain its values from the original object.
+    //     var cookieTown = new bakery("address")
+
+    //     bakeShop.bake("cake");
+
+    //     //factory.location - how you locate and return locations value within factory object
+    
+    // //Regex - regular expressions used to validate input
+
+    // //userInput
+    //     //input tag
+    //         //<input id="userInput">Title</input>
+    //         //TRY USING TEXT CONTENT TYPE ON GROCERY APP
+    //         //console.log(document.getElementById("userInput").textContent);
+    //         function (printText) {
+
+    //         }
