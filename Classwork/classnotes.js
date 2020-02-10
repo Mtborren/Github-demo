@@ -1031,6 +1031,13 @@
 
 
 
+
+
+
+
+
+
+
 //QUIZ REVIEW
     //Math(object)
         //When using math functions, the math operator is always capitol.
@@ -1118,3 +1125,4 @@
     //         function (printText) {
 
     //         }
+
