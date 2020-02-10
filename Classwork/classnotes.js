@@ -871,7 +871,7 @@
 </body> */}
 
 //parentNode
-//childNodes[nodenumber]
+//childNodes[nodeNumber]
 //firstChild
 //lastChild
 //nextSibling
@@ -958,3 +958,74 @@
 //Exercise Event listener
 
 //Quiz monday on arrays and functions!!! study this weekend
+
+                                                                            //02/10/20
+//Today:    
+    //CSS terms and basics
+    //HTML basics
+    //JS review
+
+//This Week:
+    //Code review Wednesday
+    //Beer and Bytes Wednesday
+    //Sharon from Parsons will be our guest speaker on Friday!
+
+//Homework/Labwork:
+    //JS Quiz
+
+//CSS Basics - Cascading Style Sheet
+    //Not technically a programming language, more of a design language
+//Self closing tags - tags ending with / are self closing and don't require another tag on the end of content to close.
+
+//ex
+//p (selector) {
+    //color("property" what we're changing): red("value" what its being changed to);
+//} this is called a declaration.
+
+//pseudo selector
+    //:link
+         //:active
+         //:visited
+         //:hover
+    //:structure
+        //:first-of-type
+        //:last-of-type
+        //:nth-of-type
+        //:only-of-type
+        //etc
+
+//selector:pseudo-class {
+    //property: value;
+//}
+//pseudo-classes are assigned after the selector because they change the way the element functions, not just how it looks.
+
+//:: indicate not a pseudo selector, but a pseudo element that alters what comes before or after.
+
+//<a href> is an anchored link that is clickable on your site.
+//<link href> is read by site as an imbued file and automatically gathers the resources from these links.
+
+//CDN - Content Distribution Network
+    //like npm's for CSS
+
+//User Agent Style Sheet
+    //how the website preDetermines it should be formatted. should be disregarded if you have good enough code format.
+
+//<Div>
+    //pushes content down
+
+//<Span>
+    //lets content stay in line
+
+//Headings
+    //listed h1 - h6 in order from biggest to smallest.
+
+//Italics - <i></i> - placed around whatever or text word you want to emphasize.
+
+//Bold - <strong></strong> - placed around whatever word or text you want to emphasize.
+
+
+//Current Standard of HTML
+    //HTML5
+        //Newest features - Header, Nav, Article, Section, Footer, Aside.
+
+

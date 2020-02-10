@@ -27,7 +27,7 @@ let cheeseInv = 20
 let breadInv = 25
 let lettInv = 15
 //used to represent which which item is being counted in quantity array
-let input = userInput
+
 
 
 function addTo() {
