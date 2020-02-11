@@ -1126,3 +1126,147 @@
 
     //         }
 
+                                            //02/11/20
+
+//Today:
+    //More HTML concepts
+    //More CSS concepts
+    //More CSS colors
+    //Hex/Binary number bases
+
+//This week:
+    //Sumo Robots today
+    //Code Review Wednesday
+    //Beer&Bytes Wednesday @ 6pm
+    //Sharon from Parsons will be our guest speaker.
+    //Friday laser training
+
+//Homework/Labwork:
+    //Catch up on week 1 & 2's homework.
+    //If finished, add CSS to personal website project.
+        //Needs to be clean, personalized, functional and creative.
+            //As well as abide by color theory.
+
+//CSS & HTML
+//Paths
+    //Relative path - used when linking to a different page within the same URL 
+        //<a href = "/week04/week4.md"></a>
+    //Absolute path - used when linking to a new web address entirely.
+        //<a href="google.com"></a>
+    //With path links, you can link things other than URL's, such as images, videos or other files
+        //<a href="/photos/dog">
+        //<img src="excitedDog1.jpg"></a>
+
+//Internal/External links
+    //External - <a href="google.com" target="_blank"></a> - target="blank" will cause this link to open in a new tab.
+    //Internal - create Id's for each section, then use <a> to anchor the id to each group.
+        // way2tutorial.com/html/snippet_editor/file=a_tag_internal_link - resource to show internal links
+
+//CSS
+    //Tags/Types
+    //Classes
+    //ID's
+
+//What - HTML - CSS - Specificity
+    //Type(tags) - <p></p>&&<div></div> - p{...} div{...} - lowest level #3 (internal styles overwrite everything!) ex. <p style="color:red"></p> overwrites everything within the p tag because its most tightly scoped.
+    //ID - id="paragraph1" || id="bunchOfCats" (unique ID's, only to be used once to change something specific without affecting rest of style sheet) - #paragraph1{...} #bunchOfCats{...} - highest level of specificity #1
+    //Class - class="redText" class="lists" - .redText{...} .lists{...} - medium level of specificity #2
+
+    //Cheat (probably shouldnt use, but if needed its available.)
+        //!important - use to force class and id's to assign changes that wont be overwrote.
+            //p{color:red !important;}
+
+    //EX.
+        // <p id="opening" class="paragraphs">
+        //     content
+        // </p>
+        //This means this paragraph will receive all changes from class, but will take id changes last because it is a unique tag.
+
+    //tags can have multiple classes.
+
+//COLOR
+    //RGB - Red Blue Green
+        //colors are produced by home much of each color is presented in each shade.
+        //color# are ranged from 0 - 255.
+        //so red would be (255, 0, 0)
+        //(0, 0, 0) - would be black.
+        //(255, 255, 255) - would result in white.
+    //HSL - hue saturation and lightness
+        //(0-360, 0%-100%, 0%-100%)
+    //you can also just type the color you want to preset number value.
+        //IE red, blue, green, yellow, teal
+    
+    //RGBA
+        //A=Alpha channel. allows for transparency and opaqueness.
+        //Wrote as red(255, 0, 0, 0.2) - 0.2 dictates how transparent the color will be.
+    //HSLA
+        //Same concept as about RGBA
+        //Wrote as (0-360, 0-100%, 0-100%, 0.0-1.0)
+    
+    //Color bases
+
+    //Decimal system
+        //10^0 = 0
+        //10^1 = 10
+        //10^2 = 100
+    
+    //Binary
+        //2^0 = 1
+        //2^1 = 2
+        //2^2 = 4
+        //2^3 = 8
+            //each position = bit
+            //each group of 8 bits = byte
+            //in binary, 90 = 
+            //128 - 64 - 32 - 16 - 8 - 4 - 2 - 1 
+            //because 90 is smaller than 128, that position would represent 0.
+            //because 64 is less than 90, subtract the 2, place a 1 over 64, and keep going to get full binary representation.
+            // 0  -  1 -  0 -  1 - 1 - 0 - 1 - 0 = 90 = (64+16+8+2);
+
+            //128 - 64 - 32 - 16 - 8 - 4 - 2 - 1 
+
+        //ex.
+            //10011001
+            // 1  - 0  - 0  - 1  - 1 - 0 - 0 - 1
+            //128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
+            //answer is 153. 128 + 16 + 8 + 1
+
+    //Hexadecimal - 6 characters used to identify (hexa = 6)
+        //Base 16
+        //only one character per space as shown about in binary example.
+        //because binary only allows integers 0-9, the following characters to reach 16 will be represented by letters.
+        //0-1-2-3-4-5-6-7-8-9-a-b-c-d-e-f
+        //f = maximum value, so if all f's (#FFFFFF) = white, all 0's (#000000)= black.
+            //if all numbers are same in color, you can shorten the code by only using 3 characters, the computer will fill in the blanks.
+            //Always make sure things are high enough contrast! Being able to read and view content easily is key.
+
+    //CSS Lengths
+        //Absolute lengths (will not directly adjust or resize to show on other platforms(such as mobile or other browsers))(not recommended because you want all images and text blocks to scale according to device or browser being used.)
+            //Pixels - an exact amount of pixels for the length, no matter the device.
+            //Centimeters/millimeters
+            //inches
+            //points
+            //picas
+        //Relative lengths
+            //em - relative to font size of the element. (2em means 2 times the size of the current font)
+            //ex - (relative to x height of current font)
+            //ch - relative to width of the "0"
+            //rem - relative to font size of root element
+            //vw - relative to 1% of the width of the viewport
+
+            
+            //vh - relative to 1% of the height of the viewport
+            //vmin - relative to 1% of viewports smaller dimension
+            //vmax - relative to 1% of viewports larger dimension
+            //% - relative to the parent element
+
+    //HTML Box Model
+        //https://www.codecademy.com/articles/f1-devtools-box-model
+
+        //Content
+        //Padding - padding: 10px; area inside of border
+        //Border - border:1px solid red; area around content
+        //Margin - margin: 100px; - area in between other groups of content
+
+        //border-radius - rounds border around content.
+        //background:url("img url") creates a background image for inside the border

@@ -219,9 +219,23 @@
     // change styles of 3 separate elements using Javascript
     // change the class name and text of a a child or sibling of each of the above elements
 
+// document.getElementById("opening").innerHTML = "This one time at band camp...";
+// document.getElementById("story").innerHTML = "There was a guy who like apple pie a lot.";
+// document.getElementById("ending").innerHTML = "Like, a lot...";
 
-
+// function myFunc(){
+//     let classEx = document.getElementsByClassName("ex")[0];
+//     list.getElementsByClassName("ex")[0].innerHTML = "etc..."
+// }
 // Exercise event listener
     // add an event listener to an element so that when you click it, another element's style changes.
     // create a list with at least 3 elements
     // apply event delegation to that list of elements
+
+// document.addEventListener("click", function(){
+//     document.body.style.backGroundColor = "black";
+// });
+
+function toUpper(){
+    document.getElementByClassName("example").style.textTransform = "capitalize";
+}
