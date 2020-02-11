@@ -219,23 +219,35 @@
     // change styles of 3 separate elements using Javascript
     // change the class name and text of a a child or sibling of each of the above elements
 
-// document.getElementById("opening").innerHTML = "This one time at band camp...";
-// document.getElementById("story").innerHTML = "There was a guy who like apple pie a lot.";
-// document.getElementById("ending").innerHTML = "Like, a lot...";
-
-// function myFunc(){
-//     let classEx = document.getElementsByClassName("ex")[0];
-//     list.getElementsByClassName("ex")[0].innerHTML = "etc..."
+// document.getElementById("opening").innerHTML = "Once upon a time...";
+// function myFunc() {
+//     document.body.style.backgroundColor = "red";
 // }
+// function myFunc2() {
+//     document.body.style.color = "white";
+// }
+
+// function myFunc3() {
+//     let divTag = document.getElementById("divTag")
+//     let textChange = divTag.childNodes[0];
+//     textChange.nodeValue = "Now the story really Begins!"
+// }
+
+// function myFunc4() {
+//     document.getElementById("divTag").className = "newDiv";
+// }
+
 // Exercise event listener
-    // add an event listener to an element so that when you click it, another element's style changes.
-    // create a list with at least 3 elements
-    // apply event delegation to that list of elements
+//     add an event listener to an element so that when you click it, another element's style changes.
+//     create a list with at least 3 elements
+//     apply event delegation to that list of elements
 
-// document.addEventListener("click", function(){
-//     document.body.style.backGroundColor = "black";
-// });
+// document.getElementById("opening").addEventListener("click",
+// function(){
+//     document.body.style.color = "blue";
+// })
 
-function toUpper(){
-    document.getElementByClassName("example").style.textTransform = "capitalize";
-}
+document.getElementsByClassName("list").addEventListener("click",
+function(){
+    document.body.style.color = "grey";
+})
