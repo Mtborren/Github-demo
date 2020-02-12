@@ -1351,10 +1351,74 @@
             //quotes <q></q> - places content in quotations
             //cites <cite></cite> - correctly formats quote to include citation
 
+    //CSS Backgrounds & gradients
+        //background-color = changes background color
+        //background = .className(url);
+            //background changes background to image based on url
+        //gradients
+            //css gradient generator(colorzilla.com)
+                //automatically creates gradient path for code
+        //background-size
+            //cover
+            //contain
+
+    //HTML lists
+        //unordered lists <ul></ul>
+            //gets bullet points
+        //ordered lists <ol></ol>
+            //gets numbers for items
+        //description lists <dl></dl>
+            //<dt></dt> - titles
+            //<dd></dd> - description
+        //nesting lists
+        //list item stylings
+            //list-style-type
+
+    //HTML/CSS adding media
+        //images
+            //supported image formats (gif, jpg, png) - jpg is standard - gifs are low quality and small - png are high quality and very large
+            //background-image vs img tag - different placement options for background. creating image tag sets image into its own area
+            //lossless - lossy - after compression lossless(png) means you will not notice a difference, lossy means it will be close but you will see a difference in the files.
+        //audio
+        //video
+        //inline frames
+            //i-frame - creates their own window - a way to host content without using your site to host it.
+                //how you can add youtube videos to your website.
+        //figure
+            //text book method to add image
+        //caption  
+            //text book method to add caption to image
     
-            
-
-
-
-
-
+    //HTML form
+        //form tag - for submitting information
+            //method
+            //action
+        //input types
+            //text
+            //color
+            //email
+            //range
+            //time
+            //date
+            //month
+            //search
+            //url
+            //dateTime
+            //number
+            //tel
+            //week
+        //textArea
+            //name - describe whats going on
+        //multiple choice
+            //radio - used when only choosing one option
+            //checkbox - used when choosing multiple options
+        //drop down list
+            //select > option
+        //submit button - must be inside form to work
+        //hidden input
+        //form organization
+            //label
+                //for
+            //fieldset - separates form groups into own box to seperate from rest of page
+                //legend
+        //placeholder - creates transparent text inside input field that clears when typed over
