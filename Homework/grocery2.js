@@ -1,5 +1,5 @@
 let shoppingCart = { };  //empty shopping cart object.
-let inventory = {       //inventory object
+let inventory = {        //inventory object
     milk: 10,
     eggs: 24,
     cheese: 20,

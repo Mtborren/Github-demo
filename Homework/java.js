@@ -247,7 +247,7 @@
 //     document.body.style.color = "blue";
 // })
 
-document.getElementsByClassName("list").addEventListener("click",
-function(){
-    document.body.style.color = "grey";
-})
+// document.getElementsByClassName("list").addEventListener("click",
+// function(){
+//     document.body.style.color = "grey";
+// })

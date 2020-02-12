@@ -1264,9 +1264,97 @@
         //https://www.codecademy.com/articles/f1-devtools-box-model
 
         //Content
-        //Padding - padding: 10px; area inside of border
-        //Border - border:1px solid red; area around content
-        //Margin - margin: 100px; - area in between other groups of content
+            //Padding - padding: 10px; area inside of border
+            //Border - border:1px solid red; area around content
+            //Margin - margin: 100px; - area in between other groups of content
 
-        //border-radius - rounds border around content.
-        //background:url("img url") creates a background image for inside the border
+            //border-radius - rounds border around content.
+            //background:url("img url") creates a background image for inside the border
+
+//02/12/20
+
+//Today:
+    //Finish box model section
+    //Positioning
+    //Typography
+
+//Homework:
+    //
+
+    //HTML box model (cont.)
+        //Display
+            //None - removes content from view
+            //hidden - hides content
+            //Block - block elements push things down (top and bottom - like a page break) - resizable so we can adjust dimensions (div)
+            //Inline - inline elements are in line. (side by side) - (span)
+            //Inline-Block - inline blocks are resizable and are inline (side by side) and not blocked together
+                //Have to specify in CSS
+
+    //CSS Positioning
+        //Floats - moves content away from other content to keep things in position
+            //float: left, right, none & inherit
+            //img{float: left} would render image to the left on the content on the page
+            //float none is default
+            //float inherit means the tag being floated will receive whatever positioning the parent tag has
+        //clearing - moves content away from floated content so it can be on a separate position
+            //match floats and clears, if float left - clear left.
+        //overflow
+            //places content and elements together
+            //overflow: auto
+        //containing
+            //:before - how to contain layout before rest of code is applied
+            //:after - makes sure after content is done it wont shift after
+        //inline-block
+        //static
+            //default
+        //relative
+            //is positioned relative to its normal position. so if relative: 33px, it would move 33px from normal position
+        //absolute
+            //like fixed, but in relation to parent element
+        //fixed
+            //means element will stay fixed on screen no matter where the user scrolls
+        //sticky 
+            //means it will catch elements as you scroll and keep on screen until you scroll back to original position, then it will return until scrolled passed again.
+
+    //CSS Typography
+        //typeface vs font
+            //font is made up of size, weight, style, serif and sans serif.
+                //ex. p{
+                //   font-family: "Times New Roman", time, serif;
+                //}
+            //typeface is a group of fonts that share an overall design
+        //color
+            //color - changes text color
+            //backgroundColor - changes background color
+        //font properties
+            //font-family
+            //font-size
+            //font-style
+            //font-variant
+            //font-weight
+            //line-height
+        //text properties
+            //text-align
+                //right, left, center
+            //text-decoration
+            //text-indent 
+            //text-shadow: 1px(thick) 3px(away): blue; (color of shadow)
+            //text-transform
+                //upper case, lower case or capitalize everything
+        //web safe fonts
+            //fonts.google.com
+            //dafont.com - much more difficult to use than google.
+            //the more fonts you add to your site, the slower your site will become.
+        //web fonts
+        //citations & quotes
+            //blockquotes <blockquote></blockquote> - places quote in block
+            //quotes <q></q> - places content in quotations
+            //cites <cite></cite> - correctly formats quote to include citation
+
+    
+            
+
+
+
+
+
