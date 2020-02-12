@@ -1279,7 +1279,10 @@
     //Typography
 
 //Homework:
-    //
+    //Exercise Web Page (githubWebsiteRepo)
+    //Exercise links and Style
+    //Exercise Aside
+    
 
     //HTML box model (cont.)
         //Display
