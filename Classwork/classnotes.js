@@ -1425,3 +1425,17 @@
             //fieldset - separates form groups into own box to seperate from rest of page
                 //legend
         //placeholder - creates transparent text inside input field that clears when typed over
+
+                                                            //02/13/20
+
+//Today:
+    //HTML tables
+    //Start JS Review
+//HomeWork:
+    //Fonts 
+    //Lists and Tables
+//This Week:
+    //Sharon from Parsons will be our guest speaker!
+    //Friday Laser Training
+
+    //HTML tables
