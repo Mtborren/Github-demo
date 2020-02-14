@@ -1426,16 +1426,29 @@
                 //legend
         //placeholder - creates transparent text inside input field that clears when typed over
 
-                                                            //02/13/20
+                                                            //02/14/20
 
 //Today:
     //HTML tables
     //Start JS Review
 //HomeWork:
-    //Fonts 
-    //Lists and Tables
+    //Exercise Fonts & lists/tables - make sure finished over weekend
 //This Week:
     //Sharon from Parsons will be our guest speaker!
     //Friday Laser Training
 
     //HTML tables
+        //a way to make structured set ups for data. (rows and columns)
+        //can be assigned to have headers and footers
+        //<table>   //<- table tag
+            //<tr>  //<- table row
+                //<th>information</th> //<- table header
+                //<th>content</tr>
+            //</tr>
+            //<tr>
+                //<td>sub info</td>  //<- table data
+                //<td>sub content</td>
+            //</tr>
+        //</table>
+        //the above structure gives you a basic table lay out in html.
+        //styling it is where you get all of the other details.
