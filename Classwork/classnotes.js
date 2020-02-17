@@ -1492,5 +1492,3 @@
 
             //Ex.2 
             //Fibonacci sequence
-        
-console.log(5);
