@@ -1452,3 +1452,45 @@
         //</table>
         //the above structure gives you a basic table lay out in html.
         //styling it is where you get all of the other details.
+
+                                                            //02/17/2020
+
+//Today:
+    //Problem solving skills
+    //Recursion
+
+//This Week:
+    //Staff meeting today
+    //Robots on Tuesday
+    //Study Hall Thursday
+    //Rudson will be speaker on Friday
+    //Quiz Friday
+
+//Homework:
+    //Write an about me for website (be human, get personal - mention your life, what you like, what you do, and what your goals are.)
+    //Also need to draw out actual layout for website, what themes to use, how to structure content, and what CSS finishes to use for the elements
+
+    //Problem Solving
+        //Define the problem
+        //Generate alternatives
+        //Evaluating and selecting alternatives
+        //Implementing solutions
+
+        //Algorithms
+
+        //Heuristic
+
+        //Recursion
+            //Kind of like a loop, but an event that logs over and over
+            //Ex.1
+            //Problem
+                //Fill empty car garage with cars
+            //Base Case
+                ///Park one car
+            //Step
+                //park another car
+
+            //Ex.2 
+            //Fibonacci sequence
+        
+console.log(5);
