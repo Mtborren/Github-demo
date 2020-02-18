@@ -1492,3 +1492,48 @@
 
             //Ex.2 
             //Fibonacci sequence
+
+                                                                            //02/18/20
+//Today
+    //CSS but with rules!
+
+//This week:
+    //Robots on today
+    //Code Review tomorrow
+    //Augusta Dev Thursday
+    //Rudson will be speaker on Friday
+    //Quiz Friday
+
+//Homework/Labwork
+    //Exercise Selectors and media queries - do this work on where ever you have been
+    //Finish about me
+
+
+    //CSS w/ Rules
+        //BEM - Block Element Modifier
+            //Helps you to create usable components and code sharing in front-end development (just a format for how to write CSS)
+            //ex .block--modifier-value 
+            //ex .button--value-disabled
+
+        //Other types of formates for CSS 
+            //OOCSS - object oriented
+            //SMACSS
+            //SUITCSS
+            //ATOMIC
+
+        //CSS selectors 
+            //Speed
+                //1 - ID - #header
+                //2 - Class - promo
+                //3 - Type - div
+
+            //direct child
+                //<body>
+                    //<p></p>
+                //</body>
+                //=
+                //body > p {color:blue}
+
+                //morgans code pen - css selectors
+
+                //research complex selectors
