@@ -1578,5 +1578,17 @@
         //WAI-ARIA
             //Landmark
                 //a role that identifies large content areas and are used by screen readers for navigation. (e.g. <footer role="contentInfo")
-        //tab index
-        //screen readers
+            //Widget
+            //Window
+            //Live Regions
+            //Abstract
+        //Tab index
+            //flow of tab key
+        //Screen readers
+            //What the screen will read to visually impaired users.
+
+    //HTML Accessibility
+        //Structural/Text Semantics
+            //make sure to use appropriate tags for appropriate elements so they will be viewed and read correctly to the user
+        //MicroData
+            //used to specify elements further that general class or id.
