@@ -1537,3 +1537,46 @@
                 //morgans code pen - css selectors
 
                 //research complex selectors
+
+                                                                            //02/19/20
+
+//Today:
+    //CSS Transforms
+    //CSS Transitions and Animations
+    //HTML SEO
+    //HTML Accessibility
+
+//This week:
+    //Code Review Today
+    //Augusta Dev Thursday
+    //Rudson
+    //Quiz Friday
+
+//Homework:
+    //possibly Exercise Shiv
+
+    //CSS Transforms
+        //2D Transforms
+        //Transform Origin
+        //Perspective
+        //3D Transforms
+        //Transform Style
+        //Backface Visibility
+
+    //CSS Transitions and Animations
+        //Transitions
+        //Keyframes
+        //Animation Calls
+
+    //HTML/CSS Polyfills
+        //HML SHiv
+        //Conditional Linking
+        //Modernizr
+        //Cross Browser Testing
+
+    //HTML SEO
+        //WAI-ARIA
+            //Landmark
+                //a role that identifies large content areas and are used by screen readers for navigation. (e.g. <footer role="contentInfo")
+        //tab index
+        //screen readers
