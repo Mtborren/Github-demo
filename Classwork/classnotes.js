@@ -1592,3 +1592,37 @@
             //make sure to use appropriate tags for appropriate elements so they will be viewed and read correctly to the user
         //MicroData
             //used to specify elements further that general class or id.
+
+                                                            //02/20/20 
+//Homework
+    //CountDown timer
+//Today 
+    //Auto Complete
+        //create an auto complete feature
+        //input text box
+        //list of terms
+        //compare
+        //validate input (no special characters)
+
+        //Break problem down
+
+        //Auto complete - takes user input and finishes/corrects input
+            //need a way to get input back
+            //need html and input
+        //list of terms
+            //mint
+            //chocolate
+            //vanilla
+            //strawberry
+            //rage
+            //moose tracks
+        //Need to compare user input to list of terms on each key stroke
+        //if input is a number or a special character 
+            //tell the user invalid selection
+        //if the letter/word is in list 
+            //1. show suggestions
+            //2. let user click to fill with options
+            //3. completes the word for the user
+            //4. lets them submit
+        //if it is not in the list
+            //do nothing
