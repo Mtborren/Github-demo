@@ -1626,3 +1626,59 @@
             //4. lets them submit
         //if it is not in the list
             //do nothing
+
+
+//02/24/20
+
+//Today
+    //Node
+
+//Homework
+    //Exercise CMD & Exercise Wait (ignore promise for wait exercise, just use callback)
+
+    //Node Basics
+        //allows us to use java script for front end and back end.
+
+    //NodeJS 
+        //an open source "Runtime environment" for JS outside of web browser.
+            //develope front end in javascript
+            //export import to .json
+            //develope back end in javascript
+        
+    //Asynchronous Programming
+        //Code that can run out of order.
+        //Javascript is synchronous by default and is single threaded.
+    //Round Robin - every process has a 5 second cycle before the next event starts. so after 5 seconds elapse, the next event occurs regardless of event #1's progress.
+
+    //Callbacks
+        //like event listeners - a simple function passed as a value(parameter) to another function and waits for the event to occur before execution.
+        //document.getElementById('button').addEventListener('click', () =>{
+        //
+        //})
+
+    //AJAX 
+        //Asynchronous code
+    
+    //XHR
+        //has 4 states
+        //0 - not initialized
+        //1 - set up
+        //2 - sent
+        //3 - in process
+        //4 - complete
+
+    //Errors in Callbacks
+        //you want to fail early and safely, that way you can locate the error based on working code.
+        //RunTime error
+            //Error that occurs when code is ran but is caused by other things beside the code.
+        //compile error
+            //Error that occurs while writing.
+
+    //Hoisting
+        //Ability to use/assign objects before declaring them.
+
+    //NPM
+        //Node Packet Manager
+
+    //Node Modules
+        //methods for javascript
