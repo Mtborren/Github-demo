@@ -27,22 +27,17 @@
 
 //end
 
-// Promise
+// Promise attempt
 
+// let rateGame = module.exports = function rateGame(gameGood){
+//     console.log("Should I Buy This Game?")
+//     if(gameGood == true){
+//         setTimeout(function(){ console.log('This game is dope! Buy It!'); }, 5000);
+//     } else{
+//         setTimeout(function(){ console.log('This game is garbage. Do Not Buy!'); }, 5000);
+//     }
+// }
 
-let isTheGameGood = module.exports =  function good(){
-    new Promise ((resolve, reject) => {
-    if(good = true){
-        let gameGood = 'This game is dope!';
-        console.log(gameGood);
-        resolve(gameGood);
-    } else if(good = true){
-        let gameBad = 'This is garbage.';
-        console.log(gameBad);
-        reject(gameBad);
-        return gameBad
-    }
-});
-}
-isTheGameGood(true);
+// rateGame(true);
 
+//end

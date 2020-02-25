@@ -1682,3 +1682,50 @@
 
     //Node Modules
         //methods for javascript
+
+
+                                            //02/25/20
+
+//Today
+    //Finish YouTube video
+    //Promises
+    //User Input
+
+//This Week
+    //Last day of robots Today
+    //Code Review Wednesday
+    //Study Hall Thursday - still waiting
+
+//Homework/Labwork
+    //Exercise Prompt
+
+//Promises
+//make two functions, one that does comp. math and one that waits for the math to be returned
+
+//complicated math
+
+// function someMath(){
+//     for(i=0, i<1000000, i++){
+//         if(i=1000000){
+//             console.log(i);
+//         }
+//     }
+// }
+
+//where we put our promise 
+
+// function waitForMath(){
+//     return new Promise((resolve, reject) => {
+//         try{
+//         resolve(someMath());
+//         } catch(error){
+//         reject("error: numbers aren't real");
+//         }
+//     })
+// }
+
+// waitForMath().then(res => {
+//     console.log(res);
+// });
+
+//check out DEV.to

@@ -18,7 +18,7 @@
 // Separate those two functions into separate files and call one of them using node
 
 
-// let dbz = require('./message.js')
+// let dbz = require('./message.js');
 // function attack(){
 //     dbz + setTimeout(function(){
 //         console.log("HAAA!"); 
@@ -28,15 +28,22 @@
 
 //end
 
-//Promise
-let good = require('./message.js');
-let buyGame = () => {
-    isTheGameGood
-        if(good = true){
-            console.log("Buy This Game!");
-        } else if(good != true){
-            console.log("Do Not Buy This Game!");
-        }
-}
-buyGame();
+//Promise attempt
 
+// let rateGame = require('./message.js');
+
+// function buyGame(){
+//     return new Promise((resolve, reject) => {
+//         try{
+//             resolve(rateGame);
+//         } catch(error){
+//             reject(error);
+//         }
+//     })
+// }
+
+// buyGame().then(setTimeout(function(){
+//     console.log("I think...");
+// }, 2000))
+
+//end
