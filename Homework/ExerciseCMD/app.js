@@ -11,6 +11,10 @@
 
 //  end
 
+
+
+
+
 //Exercise Wait Homework
 
 // Create a function that takes some time to execute (You can count to a really high number, or use a setInterval)
@@ -27,6 +31,10 @@
 // attack();
 
 //end
+
+
+
+
 
 //Promise attempt
 
