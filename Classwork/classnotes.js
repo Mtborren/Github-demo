@@ -1729,3 +1729,15 @@
 // });
 
 //check out DEV.to
+
+                                                            //02/26/20
+
+//Today
+    //User input with Node.js
+        //https://nodejs.org/api/readline.html
+        //https://flaviocopes.com/node-input-from-cli/
+    //Event modules
+        //https://www.tutorialspoint.com/nodejs/nodejs_event_loop.htm
+//Homework
+    //Prompt 
+    //Input/File
