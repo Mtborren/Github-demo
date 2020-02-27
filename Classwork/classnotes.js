@@ -1741,3 +1741,19 @@
 //Homework
     //Prompt 
     //Input/File
+
+                                                            //02/27/20
+
+//Today
+    //Promise Review
+    //HTTP module
+    //HTTP response 
+
+//This week
+    //Code Review
+    //Study Hall Tonight
+    //Friday we will have Nicole from RSI
+
+//Homework
+    //Finish Exercise input/file
+    //Server part 1
