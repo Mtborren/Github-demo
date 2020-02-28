@@ -1757,3 +1757,22 @@
 //Homework
     //Finish Exercise input/file
     //Server part 1
+
+
+                                                            //02/28/20
+
+//Today
+    //
+
+//This Week
+    //
+
+    //Next Study Hall March 19th.
+    //Augusta Dev March 26th.
+    //TaxSlayer March 13th.
+    //No Class all april 06th - april 10th.
+
+//Homework
+    //Exercise Server part 2
+
+    
