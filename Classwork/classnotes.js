@@ -1761,9 +1761,6 @@
 
                                                             //02/28/20
 
-//Today
-    //
-
 //This Week
     //
 
@@ -1775,4 +1772,5 @@
 //Homework
     //Exercise Server part 2
     //download last pass or another password manager to limit security risks
-
+    //download SQL SSMS to learn about databases. 
+    //Check out mySQL
