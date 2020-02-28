@@ -4,33 +4,17 @@
 
 const http = require('http');
 const fs = require('fs');
-const path = require('path')
-
-// const fileName = 'path/to/file';
-const stream = fs.createWriteStream(fileName);
-// const port = 8080;
-
-let filePath = '.' + request.url;
-
 //look at morgans repo titled solid parakeet to fix this code
 
-// http.createServer(function(request, response) {
-//     response.writeHead(200, {'Content-Type': 'text/html'});
-//     response.write("Hello, World!");
-//     response.end();
-// }).listen(8080);
 
 http.createServer(function(request, response) {
-    response.writeHead(200, {'Content-Type': 'text/html'});
-    stream.once('open', function(fd){
-        let html = buildHtml();
-    //     let para = document.createElement("h1");
-    //     let node = document.createTextNode("Hello, World!");
-    //     para.appendChild(node);
-        stream.end(html);
+    http.get('./Desktop\cbc8\Github-demo\Homework\ExerciseServer\server.js', (res) => {
+        let newHead = document.createElement("h1");
+        let newContent = document.createTextNode("Hello, World!")
+        newHead.appendChild(newContent);
     })
-    // document.createElement("H1");
-    // document.createTextNode("Hello, World!");
+    response.writeHead(200, {'Content-Type': 'text/html'});
     response.write("Hello, World!");
     response.end();
 }).listen(8080);
+
