@@ -1774,5 +1774,5 @@
 
 //Homework
     //Exercise Server part 2
+    //download last pass or another password manager to limit security risks
 
-    
