@@ -1762,15 +1762,13 @@
                                                             //02/28/20
 
 //This Week
-    //
-
     //Next Study Hall March 19th.
     //Augusta Dev March 26th.
     //TaxSlayer March 13th.
     //No Class all april 06th - april 10th.
 
 //Homework
-    //Exercise Server part 2
-    //download last pass or another password manager to limit security risks
-    //download SQL SSMS to learn about databases. 
-    //Check out mySQL
+//     Exercise Server part 2
+//     download last pass or another password manager to limit security risks
+//     download SQL SSMS to learn about databases. 
+//     Check out mySQL
