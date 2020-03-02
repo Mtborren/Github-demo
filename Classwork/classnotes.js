@@ -1772,3 +1772,15 @@
 //     download last pass or another password manager to limit security risks
 //     download SQL SSMS to learn about databases. 
 //     Check out mySQL
+
+
+                                                            //03/02/20
+
+//Today
+    //mySQL
+
+//This week
+    //Py night thursday
+
+//Homework
+    //Finish server homework
