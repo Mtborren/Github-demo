@@ -44,26 +44,43 @@
 
 //Attempt to separate into two separate files
 
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+/**
+ * This was doing that crazy double output, I haven't looked to hard but I think it has 
+ * something to do with the fact that you created multiple readline interfaces so its 
+ * outputting both, in mine (not necessary with the setup I used) as a precuationary 
+ * if I needed to use my readline interface again I imported it from the ./input.js, might
+ * fix this idk worth a try
+ */
 
-let readlineQuestion = require('./input.js');
-let readlineAnswer = require('./output.js');
+// const readline = require('readline').createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// })
+
+// let readlineQuestion = require('./input.js');
+// let readlineAnswer = require('./output.js');
 
 
-function question1(){
-    readlineQuestion.readlineQuestion1
-    readlineAnswer.readlineAnswer1
-    question2();
-}
+// function question1(){
+//     readlineQuestion.readlineQuestion1
+//     readlineAnswer.readlineAnswer1
+//     question2();
+// }
 
 
-function question2(){
-    readlineQuestion.readlineQuestion2
-    readlineAnswer.readlineAnswer2
-}
+// function question2(){
+//     readlineQuestion.readlineQuestion2
+//     readlineAnswer.readlineAnswer2
+// }
 
-question1();
-question2();
+// question1();
+// question2();
+
+/*
+const input = require('./input');
+const output = require('./output');
+
+input.prompt(`Who's That Pokémon? \n https://s3.amazonaws.com/tinycards/image/c2fc8f976103d5605984f4fb5b5b3ac1\n`);
+
+input.in(output.isCorrect);
+*/
