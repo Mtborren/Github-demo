@@ -10,3 +10,6 @@ http.createServer(function(request, response) {
     response.end()
 }).listen(8080);
 
+/**
+ * Looks great! check out my comments on serverPart2.js
+ */

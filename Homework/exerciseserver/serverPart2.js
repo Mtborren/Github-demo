@@ -31,3 +31,9 @@ http.createServer((request, response) => {
     });
 
     }).listen(port);
+
+/**
+ * Few notes, some of this could use a little formatting magic, but overall good, I added 
+ * two files anotherServer.js and index.html to demo part 2 to demo having two pages served
+ * just run node anotherServer to check it out
+ */
