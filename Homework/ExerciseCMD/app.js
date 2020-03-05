@@ -8,6 +8,8 @@
 // let videoGame1 = new videoGame('Half/Life', '3');
 
 // console.log(videoGame1.title());
+/* Below is for the ES6 class call */
+/* videoGame1.title(); */
 
 //  end
 
@@ -29,6 +31,19 @@
 //     }, 5000);
 // }
 // attack();
+
+/*
+const timer = require('./message');
+
+const stopWatch = () => {
+    console.log('Timer started...');
+    timer().then(response => {
+        console.log(response);
+    })
+}
+
+stopWatch();
+*/
 
 //end
 
