@@ -5,6 +5,11 @@
 // When a file has been written to
 // When a file has been read 
 
+/**
+ * Great work, the only extra thing I'd like to see if you can read the entire 
+ * message we the new appendage and log it to the console. 
+ */
+
 const fs = require('fs');
 
 const readline = require('readline').createInterface({
